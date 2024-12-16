@@ -1,0 +1,120 @@
+*{
+    padding: -1%;
+    margin: 10;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main {
+    padding: 20px;
+}
+
+nav div h1{
+    color: cornflowerblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, -3) ;
+    border-radius: 15px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding-right: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#btn{
+    background-color: cornflowerblue;
+    color: black;
+    padding: 16px;
+    border-radius: 19px;
+}
+#btn:hover{
+    box-shadow: 0 5px 5px rgba(0 0 0 0.1);
+    background-color: aquamarine;
+}
+main{
+    padding: 50px;
+    display: block;
+}
+
+#home-section{
+    display: block;
+    justify-content: left;
+    padding-bottom: 10px;
+    text-align: left;
+    height: 35vh;
+}
+
+#home-section-info{
+    padding-top: 15px;
+    text-align: left;
+    justify-content: left;
+    color: cornflowerblue;
+}
+
+#home-section-info h3{
+    color: black;
+    margin-bottom: -28px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+
+#accessories {
+    padding-top: 19px;
+    text-align: left;
+    color: cornflowerblue;
+}
+#accessories p {
+    color: black;
+    font-size: large;
+}
+
+.item-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    display: block;
+    margin-bottom: 20px;
+    padding-right: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+}
+
+.item img {
+    height: auto;
+    width: 250px;
+    max-height: 200px;
+}
+
+#shoes{
+    padding-top: 19px;
+    text-align: left;
+    color: cornflowerblue;
+}
+
+#shoes p{
+    color: black;
+    text-align: center;
+}
+
+.item img {
+    height: auto;
+    width: 250px;
+}
